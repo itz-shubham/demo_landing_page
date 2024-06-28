@@ -18,3 +18,14 @@
 .cursive {
     font-family: 'Pacifico', cursive;
 }
+
+.collapsible {
+    cursor: pointer;
+}
+
+.collapsible-content {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+}
